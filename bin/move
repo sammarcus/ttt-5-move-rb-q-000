@@ -11,7 +11,7 @@ puts "Where would you like to go, Player 1?"
 
 
 input = gets.strip
-move(board,input, character ="X")
+move(board,input)
 
 display_board(board)
 
